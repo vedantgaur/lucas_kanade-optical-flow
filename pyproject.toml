@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lucas-kanade"
+version = "0.1.0"
+description = ""
+authors = ["vedant"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+scipy = "^1.7.1"
+bpython = "^0.21"
+ipython = "^7.26.0"
+Pillow = "^8.3.1"
+scikit-image = "^0.18.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
